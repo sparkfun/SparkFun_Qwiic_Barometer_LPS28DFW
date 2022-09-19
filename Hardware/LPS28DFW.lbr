@@ -185,10 +185,10 @@
 <wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
 <smd name="1" x="1.125" y="0" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="4" x="-1.125" y="0" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
-<smd name="5" x="-0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
-<smd name="6" x="0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="2" x="0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="5" x="-0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="6" x="0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
 <circle x="2" y="0" radius="0.1" width="0.2" layer="21"/>
 <rectangle x1="0.075" y1="0.9" x2="1.075" y2="1.35" layer="29"/>
 <rectangle x1="-1.075" y1="0.9" x2="-0.075" y2="1.35" layer="29"/>
@@ -207,6 +207,7 @@
 <rectangle x1="-0.4" y1="-0.4" x2="0.4" y2="0.4" layer="31"/>
 <text x="0" y="2" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
 <text x="0" y="-2" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
+<rectangle x1="-1.4" y1="-1.4" x2="1.4" y2="1.4" layer="39"/>
 </package>
 </packages>
 <symbols>
