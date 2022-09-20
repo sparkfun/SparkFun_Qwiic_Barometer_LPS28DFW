@@ -21927,7 +21927,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="3" x="-0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="5" x="-0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="6" x="0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
-<circle x="2" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="1.75" y="-1.75" radius="0.1" width="0.2" layer="21"/>
 <rectangle x1="0.075" y1="0.9" x2="1.075" y2="1.35" layer="29"/>
 <rectangle x1="-1.075" y1="0.9" x2="-0.075" y2="1.35" layer="29"/>
 <rectangle x1="0.075" y1="-1.35" x2="1.075" y2="-0.9" layer="29"/>
@@ -22807,13 +22807,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 </symbol>
 <symbol name="DGND">
 <description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<text x="0" y="-0.254" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>

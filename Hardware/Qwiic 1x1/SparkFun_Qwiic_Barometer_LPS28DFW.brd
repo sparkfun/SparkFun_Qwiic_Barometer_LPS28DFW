@@ -1169,7 +1169,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="3" x="-0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="5" x="-0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="6" x="0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
-<circle x="2" y="0" radius="0.1" width="0.2" layer="21"/>
+<circle x="1.75" y="-1.75" radius="0.1" width="0.2" layer="21"/>
 <rectangle x1="0.075" y1="0.9" x2="1.075" y2="1.35" layer="29"/>
 <rectangle x1="-1.075" y1="0.9" x2="-0.075" y2="1.35" layer="29"/>
 <rectangle x1="0.075" y1="-1.35" x2="1.075" y2="-0.9" layer="29"/>
