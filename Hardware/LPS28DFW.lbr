@@ -244,7 +244,9 @@
 <connect gate="G$1" pin="VDD" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-17197"/>
+</technology>
 </technologies>
 </device>
 </devices>

@@ -2877,6 +2877,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="LOGO3" library="SparkFun-Aesthetics" package="BLANK" value="SFE_LOGO_NAME_FLAMEBLANK" x="-19.05" y="-16.51" smashed="yes"/>
 <element name="U1" library="LPS28DFW" package="LPS28DFW" value="LPS28DFW" x="3.81" y="8.89" smashed="yes">
 <attribute name="NAME" x="3.81" y="10.89" size="0.6096" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="PROD_ID" value="IC-17197" x="3.81" y="8.89" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="3.81" y="6.89" size="0.6096" layer="27" font="vector" ratio="20" align="center"/>
 </element>
 <element name="H1" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="3.81" y="16.51" smashed="yes">
