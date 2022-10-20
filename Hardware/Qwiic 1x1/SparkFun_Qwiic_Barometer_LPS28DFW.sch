@@ -25200,8 +25200,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="167.64" y="10.16" size="2.54" layer="94" font="vector">Dryw Wade</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
-<text x="68.58" y="177.8" size="2.54" layer="94" font="vector" align="center">LPS28DFW</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="68.58" y="177.8" size="2.54" layer="94" font="vector" align="center">Barometer - LPS28DFW</text>
 <text x="198.12" y="177.8" size="2.54" layer="94" font="vector" align="center">I2C Pullups</text>
 <text x="198.12" y="132.08" size="2.54" layer="94" font="vector" align="center">I2C Address Selection</text>
 <text x="48.26" y="78.74" size="2.54" layer="94" font="vector" align="center">Connectors</text>
@@ -25219,26 +25219,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="157.48" y="106.68" size="2.54" layer="97" font="vector">I2C Address</text>
 <text x="157.48" y="91.44" size="2.54" layer="97" font="vector">GND</text>
 <text x="157.48" y="99.06" size="2.54" layer="97" font="vector">3V3</text>
-<text x="157.48" y="83.82" size="2.54" layer="97" font="vector">Open</text>
 <text x="170.18" y="99.06" size="2.54" layer="97" font="vector">0x5D</text>
 <text x="170.18" y="91.44" size="2.54" layer="97" font="vector">0x5C (Default)</text>
-<text x="170.18" y="83.82" size="2.54" layer="97" font="vector">SPI</text>
 <wire x1="154.94" y1="111.76" x2="195.58" y2="111.76" width="0.2032" layer="97"/>
 <wire x1="195.58" y1="111.76" x2="195.58" y2="104.14" width="0.2032" layer="97"/>
 <wire x1="195.58" y1="104.14" x2="195.58" y2="96.52" width="0.2032" layer="97"/>
 <wire x1="195.58" y1="96.52" x2="195.58" y2="88.9" width="0.2032" layer="97"/>
-<wire x1="195.58" y1="88.9" x2="195.58" y2="81.28" width="0.2032" layer="97"/>
-<wire x1="195.58" y1="81.28" x2="167.64" y2="81.28" width="0.2032" layer="97"/>
-<wire x1="167.64" y1="81.28" x2="154.94" y2="81.28" width="0.2032" layer="97"/>
-<wire x1="154.94" y1="81.28" x2="154.94" y2="88.9" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="88.9" x2="154.94" y2="96.52" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="96.52" x2="154.94" y2="104.14" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="104.14" x2="154.94" y2="111.76" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="104.14" x2="167.64" y2="104.14" width="0.2032" layer="97"/>
 <wire x1="167.64" y1="104.14" x2="195.58" y2="104.14" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="96.52" x2="195.58" y2="96.52" width="0.2032" layer="97"/>
-<wire x1="154.94" y1="88.9" x2="195.58" y2="88.9" width="0.2032" layer="97"/>
-<wire x1="167.64" y1="81.28" x2="167.64" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="154.94" y1="88.9" x2="167.64" y2="88.9" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="88.9" x2="195.58" y2="88.9" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="88.9" x2="167.64" y2="104.14" width="0.2032" layer="97"/>
 <text x="119.38" y="66.04" size="2.54" layer="97" font="vector" align="center">Cut trace to
 disconnect
 power LED</text>

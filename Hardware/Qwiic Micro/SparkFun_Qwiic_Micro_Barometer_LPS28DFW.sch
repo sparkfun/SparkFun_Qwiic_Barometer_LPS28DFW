@@ -24280,8 +24280,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="167.64" y="10.16" size="2.54" layer="94" font="vector">Dryw Wade</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
-<text x="68.58" y="177.8" size="2.54" layer="94" font="vector" align="center">LPS28DFW</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="68.58" y="177.8" size="2.54" layer="94" font="vector" align="center">Barometer - LPS28DFW</text>
 <text x="198.12" y="177.8" size="2.54" layer="94" font="vector" align="center">I2C Pullups</text>
 <text x="198.12" y="132.08" size="2.54" layer="94" font="vector" align="center">I2C Address Selection</text>
 <text x="22.86" y="78.74" size="2.54" layer="94" font="vector" align="center">Connectors</text>
@@ -24300,26 +24300,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="157.48" y="106.68" size="2.54" layer="97" font="vector">I2C Address</text>
 <text x="157.48" y="91.44" size="2.54" layer="97" font="vector">GND</text>
 <text x="157.48" y="99.06" size="2.54" layer="97" font="vector">3V3</text>
-<text x="157.48" y="83.82" size="2.54" layer="97" font="vector">Open</text>
 <text x="170.18" y="99.06" size="2.54" layer="97" font="vector">0x5D</text>
 <text x="170.18" y="91.44" size="2.54" layer="97" font="vector">0x5C (Default)</text>
-<text x="170.18" y="83.82" size="2.54" layer="97" font="vector">SPI</text>
 <wire x1="154.94" y1="111.76" x2="195.58" y2="111.76" width="0.2032" layer="97"/>
 <wire x1="195.58" y1="111.76" x2="195.58" y2="104.14" width="0.2032" layer="97"/>
 <wire x1="195.58" y1="104.14" x2="195.58" y2="96.52" width="0.2032" layer="97"/>
 <wire x1="195.58" y1="96.52" x2="195.58" y2="88.9" width="0.2032" layer="97"/>
-<wire x1="195.58" y1="88.9" x2="195.58" y2="81.28" width="0.2032" layer="97"/>
-<wire x1="195.58" y1="81.28" x2="167.64" y2="81.28" width="0.2032" layer="97"/>
-<wire x1="167.64" y1="81.28" x2="154.94" y2="81.28" width="0.2032" layer="97"/>
-<wire x1="154.94" y1="81.28" x2="154.94" y2="88.9" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="88.9" x2="154.94" y2="96.52" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="96.52" x2="154.94" y2="104.14" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="104.14" x2="154.94" y2="111.76" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="104.14" x2="167.64" y2="104.14" width="0.2032" layer="97"/>
 <wire x1="167.64" y1="104.14" x2="195.58" y2="104.14" width="0.2032" layer="97"/>
 <wire x1="154.94" y1="96.52" x2="195.58" y2="96.52" width="0.2032" layer="97"/>
-<wire x1="154.94" y1="88.9" x2="195.58" y2="88.9" width="0.2032" layer="97"/>
-<wire x1="167.64" y1="81.28" x2="167.64" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="154.94" y1="88.9" x2="167.64" y2="88.9" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="88.9" x2="195.58" y2="88.9" width="0.2032" layer="97"/>
+<wire x1="167.64" y1="88.9" x2="167.64" y2="104.14" width="0.2032" layer="97"/>
 <text x="119.38" y="66.04" size="2.54" layer="97" font="vector" align="center">Cut trace to
 disconnect
 power LED</text>
@@ -24327,6 +24322,8 @@ power LED</text>
 1.7V - 3.6V</text>
 <text x="71.12" y="78.74" size="2.54" layer="94" font="vector" align="center">Test Points</text>
 <wire x1="48.26" y1="86.36" x2="48.26" y2="0" width="0.2032" layer="97" style="longdash"/>
+<text x="5.08" y="66.04" size="2.54" layer="97" font="vector">PTH connectors only
+accept 22AWG or smaller</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -24423,28 +24420,28 @@ power LED</text>
 <instance part="SUPPLY8" gate="G$1" x="119.38" y="48.26" smashed="yes">
 <attribute name="VALUE" x="119.38" y="51.054" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="TP1" gate="G$1" x="71.12" y="40.64" smashed="yes">
-<attribute name="NAME" x="76.2" y="40.64" size="1.778" layer="95" font="vector"/>
+<instance part="TP1" gate="G$1" x="71.12" y="33.02" smashed="yes">
+<attribute name="NAME" x="76.2" y="33.02" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP2" gate="G$1" x="71.12" y="43.18" smashed="yes">
+<instance part="TP2" gate="G$1" x="71.12" y="38.1" smashed="yes">
+<attribute name="NAME" x="76.2" y="38.1" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP3" gate="G$1" x="71.12" y="43.18" smashed="yes">
 <attribute name="NAME" x="76.2" y="43.18" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="TP3" gate="G$1" x="71.12" y="45.72" smashed="yes">
-<attribute name="NAME" x="76.2" y="45.72" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP4" gate="G$1" x="71.12" y="48.26" smashed="yes">
 <attribute name="NAME" x="76.2" y="48.26" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="20.32" y="66.04" smashed="yes">
-<attribute name="VALUE" x="17.78" y="61.214" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="17.78" y="69.088" size="1.778" layer="95" font="vector"/>
+<instance part="J3" gate="G$1" x="20.32" y="58.42" smashed="yes">
+<attribute name="VALUE" x="17.78" y="53.594" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="17.78" y="61.468" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J1" gate="G$1" x="20.32" y="55.88" smashed="yes">
-<attribute name="VALUE" x="17.78" y="51.054" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="17.78" y="58.928" size="1.778" layer="95" font="vector"/>
+<instance part="J1" gate="G$1" x="20.32" y="48.26" smashed="yes">
+<attribute name="VALUE" x="17.78" y="43.434" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="17.78" y="51.308" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND2" gate="1" x="30.48" y="50.8" smashed="yes">
-<attribute name="VALUE" x="30.48" y="50.546" size="1.778" layer="96" align="top-center"/>
+<instance part="GND2" gate="1" x="30.48" y="43.18" smashed="yes">
+<attribute name="VALUE" x="30.48" y="42.926" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -24484,14 +24481,14 @@ power LED</text>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
-<label x="68.58" y="40.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="71.12" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
+<label x="68.58" y="33.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="53.34" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -24529,8 +24526,8 @@ power LED</text>
 </segment>
 <segment>
 <pinref part="TP2" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
-<label x="68.58" y="43.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="71.12" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<label x="68.58" y="38.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -24551,8 +24548,8 @@ power LED</text>
 </segment>
 <segment>
 <pinref part="TP3" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
-<label x="68.58" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="71.12" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
+<label x="68.58" y="43.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -24597,8 +24594,8 @@ power LED</text>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91" style="longdash"/>
-<label x="30.48" y="66.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="27.94" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91" style="longdash"/>
+<label x="30.48" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
