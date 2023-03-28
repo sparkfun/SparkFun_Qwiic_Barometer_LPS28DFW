@@ -21910,87 +21910,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="LPS28DFW">
-<packages>
-<package name="LPS28DFW">
-<wire x1="-1.4" y1="1.4" x2="-1.4" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-1.4" y1="-1.4" x2="1.4" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="1.4" y1="-1.4" x2="1.4" y2="1.4" width="0.127" layer="51"/>
-<wire x1="1.4" y1="1.4" x2="-1.4" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
-<smd name="1" x="1.125" y="0" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="4" x="-1.125" y="0" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
-<smd name="3" x="-0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
-<smd name="5" x="-0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
-<smd name="6" x="0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
-<circle x="1.75" y="-1.75" radius="0.1" width="0.2" layer="21"/>
-<rectangle x1="0.075" y1="0.9" x2="1.075" y2="1.35" layer="29"/>
-<rectangle x1="-1.075" y1="0.9" x2="-0.075" y2="1.35" layer="29"/>
-<rectangle x1="0.075" y1="-1.35" x2="1.075" y2="-0.9" layer="29"/>
-<rectangle x1="-1.075" y1="-1.35" x2="-0.075" y2="-0.9" layer="29"/>
-<rectangle x1="0.9" y1="-0.75" x2="1.35" y2="0.75" layer="29"/>
-<rectangle x1="-1.35" y1="-0.75" x2="-0.9" y2="0.75" layer="29"/>
-<smd name="7" x="0" y="0" dx="0.9" dy="0.9" layer="1" stop="no" cream="no"/>
-<rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="29"/>
-<rectangle x1="0.175" y1="1" x2="0.975" y2="1.25" layer="31"/>
-<rectangle x1="-0.975" y1="1" x2="-0.175" y2="1.25" layer="31"/>
-<rectangle x1="0.175" y1="-1.25" x2="0.975" y2="-1" layer="31"/>
-<rectangle x1="-0.975" y1="-1.25" x2="-0.175" y2="-1" layer="31"/>
-<rectangle x1="1" y1="-0.65" x2="1.25" y2="0.65" layer="31"/>
-<rectangle x1="-1.25" y1="-0.65" x2="-1" y2="0.65" layer="31"/>
-<rectangle x1="-0.4" y1="-0.4" x2="0.4" y2="0.4" layer="31"/>
-<text x="0" y="2" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
-<text x="0" y="-2" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
-<rectangle x1="-1.4" y1="-1.4" x2="1.4" y2="1.4" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LPS28DFW">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="VDD" x="-10.16" y="5.08" length="short" direction="pwr"/>
-<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
-<pin name="LID" x="-10.16" y="-2.54" length="short" direction="pas"/>
-<pin name="SDA" x="10.16" y="5.08" length="short" rot="R180"/>
-<pin name="SCL" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
-<pin name="SA0" x="10.16" y="-2.54" length="short" direction="in" rot="R180"/>
-<pin name="INT" x="10.16" y="-5.08" length="short" direction="out" rot="R180"/>
-<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96" font="vector">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LPS28DFW" prefix="U">
-<gates>
-<gate name="G$1" symbol="LPS28DFW" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LPS28DFW">
-<connects>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="INT" pad="4"/>
-<connect gate="G$1" pin="LID" pad="7"/>
-<connect gate="G$1" pin="SA0" pad="2"/>
-<connect gate="G$1" pin="SCL" pad="3"/>
-<connect gate="G$1" pin="SDA" pad="1"/>
-<connect gate="G$1" pin="VDD" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-17197"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -25144,6 +25063,100 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="CCLGA-7L">
+<wire x1="-1.4" y1="1.4" x2="-1.4" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="-1.4" x2="1.4" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="1.4" y1="-1.4" x2="1.4" y2="1.4" width="0.127" layer="51"/>
+<wire x1="1.4" y1="1.4" x2="-1.4" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<smd name="1" x="1.125" y="0" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="4" x="-1.125" y="0" dx="1.4" dy="0.35" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="2" x="0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="3" x="-0.575" y="1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="5" x="-0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
+<smd name="6" x="0.575" y="-1.125" dx="0.9" dy="0.35" layer="1" stop="no" cream="no"/>
+<circle x="1.75" y="-1.75" radius="0.1" width="0.2" layer="21"/>
+<rectangle x1="0.075" y1="0.9" x2="1.075" y2="1.35" layer="29"/>
+<rectangle x1="-1.075" y1="0.9" x2="-0.075" y2="1.35" layer="29"/>
+<rectangle x1="0.075" y1="-1.35" x2="1.075" y2="-0.9" layer="29"/>
+<rectangle x1="-1.075" y1="-1.35" x2="-0.075" y2="-0.9" layer="29"/>
+<rectangle x1="0.9" y1="-0.75" x2="1.35" y2="0.75" layer="29"/>
+<rectangle x1="-1.35" y1="-0.75" x2="-0.9" y2="0.75" layer="29"/>
+<smd name="7" x="0" y="0" dx="0.9" dy="0.9" layer="1" stop="no" cream="no"/>
+<rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="29"/>
+<rectangle x1="0.175" y1="1" x2="0.975" y2="1.25" layer="31"/>
+<rectangle x1="-0.975" y1="1" x2="-0.175" y2="1.25" layer="31"/>
+<rectangle x1="0.175" y1="-1.25" x2="0.975" y2="-1" layer="31"/>
+<rectangle x1="-0.975" y1="-1.25" x2="-0.175" y2="-1" layer="31"/>
+<rectangle x1="1" y1="-0.65" x2="1.25" y2="0.65" layer="31"/>
+<rectangle x1="-1.25" y1="-0.65" x2="-1" y2="0.65" layer="31"/>
+<rectangle x1="-0.4" y1="-0.4" x2="0.4" y2="0.4" layer="31"/>
+<text x="0" y="2" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
+<text x="0" y="-2" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
+<rectangle x1="-1.4" y1="-1.4" x2="1.4" y2="1.4" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LPS28DFW">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="VDD" x="-10.16" y="5.08" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<pin name="LID" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="SDA" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="SCL" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="SA0" x="10.16" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="INT" x="10.16" y="-5.08" length="short" direction="out" rot="R180"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96" font="vector">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LPS28DFW" prefix="U">
+<gates>
+<gate name="G$1" symbol="LPS28DFW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CCLGA-7L">
+<connects>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="INT" pad="4"/>
+<connect gate="G$1" pin="LID" pad="7"/>
+<connect gate="G$1" pin="SA0" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-17197"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -25155,7 +25168,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="U1" library="LPS28DFW" deviceset="LPS28DFW" device=""/>
+<part name="U1" library="SparkFun-Sensors" deviceset="LPS28DFW" device=""/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
